@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar ul{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 1em;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(68, 68, 126);
+}
+
+.nav-bar a{
+    padding: 1em 2em 1em 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar a:hover{
+    transition-delay: 0.001s;
+    transition-duration: 0.9s;
+    background-color: rgb(40, 40, 75);
+}
